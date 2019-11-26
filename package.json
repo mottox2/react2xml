@@ -1,0 +1,14 @@
+{
+  "name": "react2xml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react-test-renderer": "^16.12.0",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "@types/react-test-renderer": "^16.9.1",
+    "@types/xml2js": "^0.4.5"
+  }
+}
