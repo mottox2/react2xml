@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "react-test-renderer": "^16.12.0",
-    "xml2js": "^0.4.22"
+    "xmlbuilder": "^13.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
