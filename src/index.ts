@@ -28,6 +28,7 @@ const transformJSON = (element: ReactTestRendererJSON) => {
 
 const react2xml = (element: JSX.Element) => {
   const rendererJSON = testRenderer.create(element).toJSON()
+  if (!rendererJSON) throw new Error('Element is invalid')
   const xmlJSON = transformJSON(rendererJSON)
   const xbuilder = new xml2js.Builder({
     rootName: rendererJSON!.type
